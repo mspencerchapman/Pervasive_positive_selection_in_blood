@@ -1,0 +1,24 @@
+gene,chr,pos,ref,mut,aachange,ntchange,impact,sampleID,CellType,dataset
+CCL22,16,57392781,C,T,A18V,C53T,Missense,KX001,Naive B,Lymphoid
+CHEK2,22,29095866,G,A,T366I,C1097T,Missense,AX001,Naive B,Lymphoid
+IGLL5,22,23230275,G,C,E14D,G42C,Missense,AX001,Naive B,Lymphoid
+IGLL5,22,23230373,G,C,S47T,G140C,Missense,AX001,Memory B,Lymphoid
+IGLL5,22,23230321,G,A,G30S,G88A,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230327,G,C,A32P,G94C,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230330,A,G,M33V,A97G,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230348,C,G,L39V,C115G,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230349,T,C,L39P,T116C,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230359,G,C,M42I,G126C,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230361,T,G,V43G,T128G,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230381,C,T,P50S,C148T,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230381,C,G,P50A,C148G,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230406,G,A,S58N,G173A,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230407,C,G,S58R,C174G,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23230439,G,C,S69T,G206C,Missense,KX001,Memory B,Lymphoid
+IGLL5,22,23237581,A,G,T119A,A355G,Missense,tonsilPS,Memory B,Lymphoid
+MAGEC3,X,140983300,C,T,R360C,C1078T,Missense,AX001,Memory T,Lymphoid
+MTA2,11,62368907,A,G,Y6H,T16C,Missense,KX003,Memory B,Lymphoid
+SH2B3,12,111856005,C,T,P19L,C56T,Missense,AX001,Naive T,Lymphoid
+SPRED2,2,65571970,TC,T,.,86-86-delfrshift,no-SNV,AX001,Memory B,Lymphoid
+YLPM1,14,75276110,C,G,P1517A,C4549G,Missense,KX002,Naive T,Lymphoid
+YLPM1,14,75279339,A,T,R1786W,A5356T,Missense,KX003,Naive T,Lymphoid
