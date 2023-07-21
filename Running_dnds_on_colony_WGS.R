@@ -34,7 +34,10 @@ genome_file="/nfs/cancer_ref02/human/GRCh37d5/genome.fa"
 #----------------------------------------------------------------
 
 #Set data file paths
+##NOTE THAT THE DATA FOR "TN" (Triple-negative ET), "CML" (Chronic Myeloid Leukemia) and "AML" are not available on git hub currently
+
 myeloid_data_sets=c("FOETAL","CLONAL_HAEM","AGEING","HCT","MPN","TN","CML","AML")
+
 study_files<-sapply(myeloid_data_sets,function(study) grep(study,x=list.files(path = data_dir,pattern=".txt",full.names = T),value=T))
 
 myeloid_studies<-Map(file=study_files,data_set=myeloid_data_sets,function(file,data_set) {
