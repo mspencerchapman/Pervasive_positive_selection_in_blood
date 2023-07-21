@@ -6,12 +6,16 @@ prop_unidentified=function(dNdS,total_nonsynonymous_muts,identified_drivers) {
   cat(paste("Total implied number of drivers is",round(implied_total_drivers)),sep="\n")
   
   prop_unidentified_=(implied_total_drivers-identified_drivers)/implied_total_drivers
-  return(prop_unidentified_)
+  return(round(prop_unidentified_,digits = 3))
 }
 
 #Apply function to the dNdS values from the data
-data_dNdS_with_CI=c(1.11,1.13,1.58)
+data_dNdS_with_CI=c(1.11,1.13,1.158)
 names(data_dNdS_with_CI)=c("lower_CI","median","upper_CI")
 sapply(data_dNdS_with_CI,function(x) prop_unidentified(dNdS=x,
                                                        total_nonsynonymous_muts=39083,
-                                                       identified_drivers=1541))
+                                                       identified_drivers=2473))
+
+sapply(data_dNdS_with_CI,function(x) prop_unidentified(dNdS=x,
+                                                       total_nonsynonymous_muts=39083,
+                                                       identified_drivers=2270))
